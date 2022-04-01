@@ -13,7 +13,7 @@ cadena = input(
 
 if len(cadena) > 10:
     print("Ingresaste más de 10 carcateres")
-elif ("@" or "!") in cadena:
+elif map(lambda c: c in cadena, ("@" or "!")):
     print("Ingresaste alguno de estos símbolos: @ o !")
 else:
     print("Clave válida")
