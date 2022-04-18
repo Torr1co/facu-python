@@ -4,7 +4,6 @@ minas = [
     "----*",
     "*----",
 ]
-
 minas = [list(col) for col in minas]
 
 # no son utilizadas pero en un proyecto real seria lo mejor
